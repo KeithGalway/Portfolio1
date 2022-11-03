@@ -2,7 +2,7 @@ body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     padding: 0;
     margin: 0;
-    background-color: #EBEBEB;
+    background-color: #f4f4f4;
 }
 
 /* Global */
@@ -20,7 +20,7 @@ ul {
 
 .button_1 {
     height: 38px;
-    background: #ff6700;
+    background: #E8491D;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
@@ -29,7 +29,7 @@ ul {
 
 .dark {
     padding: 15px;
-    background: #004E98;
+    background: #35424A;
     color: #ffffff;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -38,11 +38,11 @@ ul {
 /* Header */
 
 header {
-    background: #004E98;
+    background: #35424A;
     color: #ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom: #ff6700 3px solid;
+    border-bottom: #E8491D 3px solid;
 }
 
 header a {
@@ -72,7 +72,7 @@ header nav {
 }
 
 header .highlight, header .current a {
-    color: #ff6700;
+    color: #E8491D;
     font-weight: bold;
 }
 
@@ -106,7 +106,7 @@ header a:hover {
 #newsletter {
     padding: 15px;
     color: #ffffff;
-    background: #004E98;
+    background: #35424A;
 }
 
 #newsletter h1 {
@@ -177,7 +177,7 @@ footer {
     padding: 20px;
     margin-top: 20px;
     color: #ffffff;
-    background-color: #ff6700;
+    background-color: #e8491d;
     text-align: center;
 }
 
