@@ -20,6 +20,10 @@ app.get('/services(.html)?', (req, res) => {
     res.sendFile(path.join(__dirname, 'views', 'services.html'))
 })
 
+app.get('/ad(.html)?', (req, res) => {
+    res.sendFile(path.join(__dirname, 'views', 'ad.html'))
+})
+
 app.all('*', (req, res) => {
     res.status(404)
     if (req.accepts('html')) {
