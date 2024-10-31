@@ -16,12 +16,10 @@
     </head>
     <body>
         <!-- Header -->
-        <header>
-            <div class="container">
-                <div id="branding">
-                    <h1><span class="highlight">IT</span>Stack</h1>
-                </div>
-                <nav>
+        <header class="header">
+            <div class="header__container">
+                <h1 class="header__heading"><span class="highlight">Galway</span> Designs</h1>
+                <nav class="header__nav">
                     <ul>
                         <li class="current"><a href="index.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
@@ -33,50 +31,70 @@
         </header>
 
         <!-- Showcase -->
-        <section id="showcase">
-            <div class="container">
-                <h1>IT Professional</h1>
-                <p>
-                    Customer Service, Hospitality, IT Support and Web Development are my very core skillset.
+        <section class="showcase">
+            <div class="showcase__container">
+                <h1 class="showcase__heading">Professional Web Developement</h1>
+                <p class="showcare__paragraph">
+                    Transform your online presence with expertly crafted websites tailored to your unique needs. 
+                    With years of experience in IT and web development, I specialize in creating modern, responsive, 
+                    and user-friendly websites that help small businesses thrive in the digital world. 
+                    Whether you need a brand-new site or a redesign, I deliver solutions that enhance your brand and 
+                    drive results. Let’s build something great together!
                 </p>
             </div>
         </section>
 
         <!-- Newsletter -->
-        <section id="newsletter">
-            <div class="container">
-                <h1>Subscribe to Our Newsletter</h1>
-                <form>
-                    <input type="email" placeholder="Enter Email...">
-                    <button type="submit" class="button_1">Subscribe</button>
+        <section class="newsletter">
+            <div class="newsletter__container">
+                <h1 class="newsletter__heading">Subscribe to Our Newsletter</h1>
+                <form class="newsletter__form">
+                    <input
+                        class="newsletter__input"
+                        type="email"
+                        placeholder="Enter Email..."
+                    >
+                    <button class="newsletter__button" type="submit">Subscribe</button>
                 </form>
             </div>
         </section>
 
         <!-- Boxes -->
-        <section id="boxes">
-            <div class="container">
-                <div class="box">
-                    <img src="img/logo_html.png" alt="HTML Logo">
-                    <h3>HTML5</h3>
-                    <p>Structuring websites using HTML.</p>
+        <section class="boxes">
+            <div class="boxes__container">
+                <div class="boxes__box">
+                    <img
+                        class="box__img"
+                        src="img/logo_html.png"
+                        alt="HTML Logo"
+                    />
+                    <h3 class="box__heading">HTML5</h3>
+                    <p class="box__paragraph">Structuring websites using HTML.</p>
                 </div>
-                <div class="box">
-                    <img src="img/logo_css.png" alt="CSS Logo">
-                    <h3>CSS3</h3>
-                    <p>Presentation of websites using CSS.</p>
+                <div class="boxes__box">
+                    <img
+                        class="box__img"
+                        src="img/logo_css.png"
+                        alt="CSS Logo"
+                    />
+                    <h3 class="box__heading">CSS3</h3>
+                    <p class="box__paragraph">Presentation of websites using CSS.</p>
                 </div>
-                <div class="box">
-                    <img src="img/logo_js.png" alt="JavaScript Logo">
-                    <h3>JavaScript</h3>
-                    <p>Creating functional elements in a website using JavaScript.</p>
+                <div class="boxes__box">
+                    <img
+                        class="box__img"
+                        src="img/logo_js.png"
+                        alt="JavaScript Logo"
+                    />
+                    <h3 class="box__heading">JavaScript</h3>
+                    <p class="box__paragraph">Creating functional elements in a website using JavaScript.</p>
                 </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer>
-            <p>FullStack Web, Copyright &copy; 2017</p>
+        <footer class="footer">
+            <p class="footer__caption">FullStack Web, Copyright &copy; 2024</p>
         </footer>
     </body>
 </html>
