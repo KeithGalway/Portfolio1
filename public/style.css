@@ -11,6 +11,15 @@
 body {
     font: 15px/1.5 Arial, Helvetica, sans-serif;
     background-color: #f4f4f4;
+}
+
+/* UTILITIES */
+
+.header__container,
+.showcase__container,
+.newsletter__container,
+.boxes__container,
+.footer__container {
     width: 80%;
     margin: auto;
 }
