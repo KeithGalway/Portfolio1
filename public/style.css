@@ -24,20 +24,17 @@ body {
     margin: auto;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* HEADER */
 
 .header {
     background: #35424A;
 }
 
-/* body {
-    font: 15px/1.5 Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #f4f4f4;
-} */
-
-/* Global */
+/*
 
 /* .container {
     width: 80%;
@@ -93,7 +90,7 @@ header li {
 header #branding {
     float: left;
 }
-Provide IT Support to a business or to individuals.
+
 header #branding h1 {
     margin: 0;
 }
